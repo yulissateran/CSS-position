@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.soccer-field {
+  background: green ;
+  height: 400px;
+  width: 600px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.play-area {
+  height: 380px;
+  margin: auto auto;
+  border: 2px solid white;
+  position: relative;
+}
+
+.arc {
+  border: 2px solid white;
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  top: 82px;
+}
+
+#arc-one {
+  left: 0;
+}
+#arc-two {
+  right: 0;
+}
+
+.circle {
+  border: 2px solid white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 82px;
+  left: 35%;
+}
+
+.ball {
+  border: 2px solid white;
+  height: 20px;
+  width: 20px;;
+  position: absolute;
+}
+#ball-one {
+  top: 83px;
+  left: 35px;
+
+}
+#ball-two {
+  top: 30px;
+  left: 50%;
+  
+}
+#ball-three {
+  right: 55px;
+  top: 250px;
+}
+
+
+/* ************************* */
+.yellow {
+  background: yellow ;
+  height: 30px;
+  width: 30px;
+}
+
+.purple {
+  background: purple ;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.red {
+  background: red ;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+/* **************** */
+
+.blue {
+  background: blue ;
+  height: 360px;
+  width: 400px;
+  position: relative;
+
+}
+
+.black {
+  background: black ;
+  height: 80px;
+  width: 80px;
+
+}
+
+.green {
+  background: green ;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
