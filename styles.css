@@ -67,6 +67,12 @@
 
 
 /* ************************* */
+
+.positioning-box {
+  padding: 20px;
+}
+
+
 .yellow {
   background: yellow ;
   height: 30px;
